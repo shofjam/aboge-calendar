@@ -1,0 +1,8 @@
+.calendar-row {
+    --bs-gutter-x: 0.5rem;
+}
+
+.calendar-hijri-date {
+    font-size: 30px;
+    font-weight: bold;
+}
