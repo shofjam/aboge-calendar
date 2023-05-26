@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/aboge-calendar/static/css/main.62fae9ee.css",
-    "main.js": "/aboge-calendar/static/js/main.bd79dd55.js",
+    "main.css": "/aboge-calendar/static/css/main.d4cc1b2e.css",
+    "main.js": "/aboge-calendar/static/js/main.cf71f57c.js",
     "static/js/787.f9108532.chunk.js": "/aboge-calendar/static/js/787.f9108532.chunk.js",
     "index.html": "/aboge-calendar/index.html",
-    "main.62fae9ee.css.map": "/aboge-calendar/static/css/main.62fae9ee.css.map",
-    "main.bd79dd55.js.map": "/aboge-calendar/static/js/main.bd79dd55.js.map",
+    "main.d4cc1b2e.css.map": "/aboge-calendar/static/css/main.d4cc1b2e.css.map",
+    "main.cf71f57c.js.map": "/aboge-calendar/static/js/main.cf71f57c.js.map",
     "787.f9108532.chunk.js.map": "/aboge-calendar/static/js/787.f9108532.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62fae9ee.css",
-    "static/js/main.bd79dd55.js"
+    "static/css/main.d4cc1b2e.css",
+    "static/js/main.cf71f57c.js"
   ]
 }
