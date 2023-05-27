@@ -7,6 +7,10 @@
     --bs-gutter-x: 0.5rem;
 }
 
+.calendar-day-name {
+    font-size: 20px;
+}
+
 .calendar-hijri-date {
     font-size: 22px;
     font-weight: bold;
@@ -23,22 +27,30 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .calendar-day-name {
+        font-size: 14px;
+    }
+
     .calendar-hijri-date {
-        font-size: 18px;
+        font-size: 16px;
     }
     
     .calendar-christ-date {
-        font-size: 10px;
-        height: 12px;
+        font-size: 9px;
+        height: 10px;
     }
 
     .calendar-pasaran-day {
-        font-size: 10px;
-        height: 12px;
+        font-size: 9px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width: 992px) {
+    .calendar-day-name {
+        font-size: 22px;
+    }
+
     .calendar-hijri-date {
         font-size: 24px;
     }
@@ -55,33 +67,60 @@
 }
 
 @media screen and (max-width: 768px) {
-    .calendar-hijri-date {
-        font-size: 20px;
+    .calendar-day-name {
+        font-size: 16px;
     }
     
-    .calendar-christ-date {
-        font-size: 11px;
-        height: 12px;
-    }
-
-    .calendar-pasaran-day {
-        font-size: 11px;
-        height: 12px;
-    }
-}
-
-@media screen and (max-width: 576px) {
     .calendar-hijri-date {
         font-size: 18px;
     }
     
     .calendar-christ-date {
         font-size: 10px;
-        height: 12px;
+        height: 11px;
     }
 
     .calendar-pasaran-day {
         font-size: 10px;
-        height: 12px;
+        height: 11px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .calendar-day-name {
+        font-size: 14px;
+    }
+    
+    .calendar-hijri-date {
+        font-size: 16px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 10px;
+        height: 10px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 10px;
+        height: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .calendar-day-name {
+        font-size: 10px;
+    }
+    
+    .calendar-hijri-date {
+        font-size: 12px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 8px;
+        height: 10px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 8px;
+        height: 10px;
     }
 }

@@ -121,7 +121,7 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
             <Card.Body className='p-0'>
                 <Table bordered className='m-0'>
                     <thead>
-                        <tr>
+                        <tr className="calendar-day-name">
                             {
                                 days.map((item, idx) => {
                                     return (
