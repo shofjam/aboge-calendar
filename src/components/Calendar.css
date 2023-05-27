@@ -1,8 +1,87 @@
+.year-name-arabic-letter{
+    font-size: 3rem;
+    text-align: right;
+}
+
 .calendar-row {
     --bs-gutter-x: 0.5rem;
 }
 
 .calendar-hijri-date {
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
+}
+
+.calendar-christ-date {
+    font-size: 11px;
+    height: 13px;
+}
+
+.calendar-pasaran-day {
+    font-size: 11px;
+    height: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .calendar-hijri-date {
+        font-size: 18px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 10px;
+        height: 12px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 10px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .calendar-hijri-date {
+        font-size: 24px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 12px;
+        height: 13px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 12px;
+        height: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .calendar-hijri-date {
+        font-size: 20px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 11px;
+        height: 12px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 11px;
+        height: 12px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .calendar-hijri-date {
+        font-size: 18px;
+    }
+    
+    .calendar-christ-date {
+        font-size: 10px;
+        height: 12px;
+    }
+
+    .calendar-pasaran-day {
+        font-size: 10px;
+        height: 12px;
+    }
 }

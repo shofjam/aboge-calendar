@@ -1,25 +1,52 @@
 import days from '../data/days.json';
 import { Table, Card } from 'react-bootstrap';
 import CalendarDate from './CalendarDate';
+import christMonths from '../data/christMonths.json';
 
-function CalendarMonthly({ monthName, totalDays, startDay }) {
+function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) {
+    var totalDays = month.totalDays;
     var totalRows = Math.ceil((totalDays + startDay + 1) / 7);
 
     var topRowDates = [];
+    var daysCounter = 0;
     for (var i = 0; i < startDay; i++) {
         topRowDates.push(
             <td key={'datePrev-' + i}>
 
             </td>
         );
+        daysCounter++;
     }
     const totalDaysFirstRow = 7 - startDay + 1;
+    var pasaranDay = startPasaranDay;
+    var christDate = new Date(startChristDate.toISOString());
+    var endChristDate = new Date(startChristDate.toISOString());
+    endChristDate.setDate(endChristDate.getDate() + totalDays - 1);
+
     for (i = 1; i < totalDaysFirstRow; i++) {
+        if (i > 1) {
+            christDate.setDate(christDate.getDate() + 1);
+        }
+
         topRowDates.push(
             <td key={'date-' + i}>
-                <CalendarDate hijriDate={i} />
+                <CalendarDate
+                    hijriDate={i}
+                    pasaranDay={pasaranDay}
+                    christDate={christDate.getDate()}
+                    isGreen={month.isFastingMonth ? true : (month.fastingDates.indexOf(i) >= 0 ? true : (daysCounter === 5) ? true : false)}
+                    isRed={startDay === 0 && i === 1}
+                />
             </td>
         );
+
+        if (pasaranDay < 4) {
+            pasaranDay++;
+        }
+        else {
+            pasaranDay = 0;
+        }
+        daysCounter++;
     }
 
     var rows = [];
@@ -40,18 +67,33 @@ function CalendarMonthly({ monthName, totalDays, startDay }) {
                 startDateNextWeek += 7;
             }
 
-            var daysCounter = 0;
+            daysCounter = 0;
             var dateCols = [];
             for (var j = startDateNextWeek; j < (totalDays + 1); j++) {
                 if (daysCounter === 7) {
                     break;
                 }
 
+                christDate.setDate(christDate.getDate() + 1);
+
                 dateCols.push(
                     <td key={'date-' + j}>
-                        <CalendarDate hijriDate={j} />
+                        <CalendarDate
+                            hijriDate={j}
+                            pasaranDay={pasaranDay}
+                            christDate={christDate.getDate()}
+                            isGreen={month.isFastingMonth ? true : (month.fastingDates.indexOf(j) >= 0 ? true : (daysCounter === 5 ? true : false))}
+                            isRed={daysCounter === 0}
+                        />
                     </td>
                 );
+
+                if (pasaranDay < 4) {
+                    pasaranDay++;
+                }
+                else {
+                    pasaranDay = 0;
+                }
 
                 daysCounter++;
             }
@@ -65,7 +107,16 @@ function CalendarMonthly({ monthName, totalDays, startDay }) {
     return (
         <Card>
             <Card.Header className='text-center'>
-                <h3>{monthName}</h3>
+                <h5>{month.monthName}</h5>
+                <p className="text-danger">
+                    {
+                        (
+                            startChristDate.getDate() + " " + christMonths[startChristDate.getMonth()] + " " + startChristDate.getFullYear() + " M"
+                            + " - " +
+                            endChristDate.getDate() + " " + christMonths[endChristDate.getMonth()] + " " + endChristDate.getFullYear() + " M"
+                        )
+                    }
+                </p>
             </Card.Header>
             <Card.Body className='p-0'>
                 <Table bordered className='m-0'>

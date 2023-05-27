@@ -1,0 +1,642 @@
+[
+    {
+        "yearNameArabicLetter": "ا",
+        "yearName": "(Alif)",
+        "startDay": 3,
+        "startPasaran": 4,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "ه",
+        "yearName": "(Ha)",
+        "startDay": 0,
+        "startPasaran": 3,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "ج",
+        "yearName": "(Jim Awwal)",
+        "startDay": 5,
+        "startPasaran": 3,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "ز",
+        "yearName": "(Dza)",
+        "startDay": 2,
+        "startPasaran": 2,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },    
+    {
+        "yearNameArabicLetter": "د",
+        "yearName": "(Dal)",
+        "startDay": 3,
+        "startPasaran": 4,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "ب",
+        "yearName": "(Ba)",
+        "startDay": 3,
+        "startPasaran": 4,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "و",
+        "yearName": "(Wau)",
+        "startDay": 3,
+        "startPasaran": 4,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    },
+    {
+        "yearNameArabicLetter": "ج",
+        "yearName": "(Jim Akhir)",
+        "startDay": 3,
+        "startPasaran": 4,
+        "months": [
+            {
+                "monthName": "Muharam",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Shafar",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Robi'ul Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Awwal",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Jumadil Akhir",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Rajab",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Sya'ban",
+                "totalDays": 29,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Ramadhan",
+                "totalDays": 30,
+                "isFastingMonth": true,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Syawwal",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+            },
+            {
+                "monthName": "Dzulqa'idah",
+                "totalDays": 30,
+                "isFastingMonth": false,
+                "fastingDates": []
+            },
+            {
+                "monthName": "Dzulhijjah",
+                "totalDays": 29,
+                "isFastingMonth": false,
+                "fastingDates": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+            }
+        ]
+    }
+]
