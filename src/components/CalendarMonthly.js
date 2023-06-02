@@ -29,7 +29,7 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
         }
 
         topRowDates.push(
-            <td key={'date-' + i}>
+            <td key={'date-' + i} style={{ padding: 3 }}>
                 <CalendarDate
                     hijriDate={i}
                     pasaranDay={pasaranDay}
@@ -77,7 +77,7 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
                 christDate.setDate(christDate.getDate() + 1);
 
                 dateCols.push(
-                    <td key={'date-' + j}>
+                    <td key={'date-' + j} style={{ padding: 3 }}>
                         <CalendarDate
                             hijriDate={j}
                             pasaranDay={pasaranDay}
@@ -106,9 +106,9 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
     }
     return (
         <Card>
-            <Card.Header className='text-center'>
-                <h5>{month.monthName}</h5>
-                <p className="text-danger">
+            <Card.Header className='text-center py-1'>
+                <h3 className="m-0">{month.monthName}</h3>
+                <div className="text-danger">
                     {
                         (
                             startChristDate.getDate() + " " + christMonths[startChristDate.getMonth()] + " " + startChristDate.getFullYear() + " M"
@@ -116,7 +116,7 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
                             endChristDate.getDate() + " " + christMonths[endChristDate.getMonth()] + " " + endChristDate.getFullYear() + " M"
                         )
                     }
-                </p>
+                </div>
             </Card.Header>
             <Card.Body className='p-0'>
                 <Table bordered className='m-0'>
@@ -125,7 +125,7 @@ function CalendarMonthly({ month, startDay, startPasaranDay, startChristDate }) 
                             {
                                 days.map((item, idx) => {
                                     return (
-                                        <th key={'day-' + idx} style={{ width: 100 }}>
+                                        <th key={'day-' + idx} style={{ width: 100 }} className={idx === 0 ? "text-danger" : idx === 5 ? "text-success" : ""}>
                                             {item}
                                         </th>
                                     )

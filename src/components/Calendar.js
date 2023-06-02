@@ -19,7 +19,7 @@ function Calendar() {
 
   var endChristDateThisYear = new Date(currentDate.christDate);
   var totalDaysThisYear = data.reduce((accum, item) => accum + item.totalDays, 0);
-  endChristDateThisYear.setDate(endChristDateThisYear.getDate() + totalDaysThisYear);
+  endChristDateThisYear.setDate(endChristDateThisYear.getDate() + totalDaysThisYear - 1);
 
   data.forEach((month, idx) => {
     if (idx === 0) {
@@ -48,8 +48,8 @@ function Calendar() {
 
   return (
     <div>
-      <h2><span className="year-name-arabic-letter">{year.yearNameArabicLetter}</span> {year.yearName + " = " + currentDate.hijriYear + " H"}</h2>
-      <h5 className="text-danger mb-5">
+      <h1><span className="year-name-arabic-letter">{year.yearNameArabicLetter}</span> {year.yearName + " = " + currentDate.hijriYear + " H"}</h1>
+      <h4 className="text-danger mb-5">
         {
           (
             startChristDateThisYear.getDate() + " " + christMonths[startChristDateThisYear.getMonth()] + " " + startChristDateThisYear.getFullYear() + " M"
@@ -57,7 +57,7 @@ function Calendar() {
             endChristDateThisYear.getDate() + " " + christMonths[endChristDateThisYear.getMonth()] + " " + endChristDateThisYear.getFullYear() + " M"
           )
         }
-      </h5>
+      </h4>
       <Row>
         {jsxMonths}
       </Row>
