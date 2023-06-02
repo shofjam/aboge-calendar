@@ -99,6 +99,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .year-name-arabic-letter {
+        font-size: 3rem;
+    }
+    
     .calendar-day-name {
         font-size: 14px;
     }
@@ -119,6 +123,10 @@
 }
 
 @media screen and (max-width: 500px) {
+    .year-name-arabic-letter {
+        font-size: 3rem;
+    }
+
     .calendar-day-name {
         font-size: 12px;
     }
